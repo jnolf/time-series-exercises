@@ -128,7 +128,7 @@ def get_sales(usecache=True):
     return pd.DataFrame(df)
 
 
-def get_all_data():
+def get_all():
     '''This function will get all the data from the API.'''
     items = get_items()
     stores = get_stores()
